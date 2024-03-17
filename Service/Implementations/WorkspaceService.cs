@@ -128,6 +128,27 @@ public class WorkspaceService : IWorkspaceService
         await _appDbContext.SaveChangesAsync();
     }
 
+    public async Task Remove(Guid AppUserId, Guid WokspaceId)
+    {
+        string UserİdString = AppUserId.ToString();
+        var byGlobalAdmin = await _userManager.FindByIdAsync(UserİdString);
+
+        var adminRol = await _userManager.GetRolesAsync(byGlobalAdmin);
+
+        if (adminRol.FirstOrDefault().ToString() != Role.GlobalAdmin.ToString())
+            throw new PermisionException("No Access");
+
+        var worksPace = await _appDbContext.Workspaces.Where(x => x.Id == WokspaceId).FirstOrDefaultAsync();
+        if (worksPace is null)
+        {
+            throw new NotFoundException("Not Found");
+        }
+
+
+        _appDbContext.Workspaces.Remove(worksPace);
+        await _appDbContext.SaveChangesAsync();
+    }
+
     public async Task ShareLinkBoardToUser(LinkShareToWorkspaceDto linkShareToWorkspaceDto)
     {
         var byAdmin = await _userManager.FindByIdAsync(linkShareToWorkspaceDto.AdminId);

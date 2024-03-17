@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Data;
@@ -185,6 +186,33 @@ namespace TaskMate.Service.Implementations
             }
             var roles = await _userManager.GetRolesAsync(user);
             return roles.FirstOrDefault();
+        }
+
+        public async Task<GetUserDto> GetById(Guid id)
+        {
+            string stringId = id.ToString();
+            var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == stringId);
+
+            if (user == null)
+            {
+                throw new NotFoundException("user not found!");
+            }
+
+            var roleName = (await _userManager.GetRolesAsync(user)).FirstOrDefault();
+            var userDto = _mapper.Map<GetUserDto>(user);
+            userDto.Role = roleName;
+            return userDto;
+        }
+
+        public async Task<List<GetUserDto>> SearchUserByEmailorUsername(string value)
+        {
+            var users = await _context.Users
+                .Where(u => u.Email.Contains(value) || u.UserName.Contains(value))
+                .Take(7)
+                .ToListAsync();
+
+            var userDtos = _mapper.Map<List<GetUserDto>>(users);
+            return userDtos;
         }
     }
 }

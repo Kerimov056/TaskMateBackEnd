@@ -7,7 +7,6 @@ public interface IWorkspaceService
     Task CreateAsync(CreateWorkspaceDto createWorkspaceDto);
     Task ShareLinkBoardToUser(LinkShareToWorkspaceDto linkShareToWorkspaceDto);
     Task AddUserWorkspace(AddUserWorkspace addUserWorkspace);
-    Task Remove(string AppUserId, Guid WokspaceId);
     Task UpdateAsync(UpdateWorkspaceDto updateWorkspaceDto);
     /// <summary>
     /// AdminId'si gelerse butun workspace'ler gorsenecekdir ama normal userId'si gelecekse yalniz hansi 
@@ -20,4 +19,5 @@ public interface IWorkspaceService
     Task<GetWorkspaceDto> GetByIdAsync(Guid WorspaceId);
 
     Task<List<GetWorkspaceInBoardDto>> GetWorkspaceInBoards(string AppUserId);
+    Task Remove(Guid AppUserId, Guid WokspaceId);
 }

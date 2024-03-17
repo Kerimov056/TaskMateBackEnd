@@ -11,5 +11,7 @@ namespace TaskMate.Service.Abstraction
         Task<List<GetUserDto>> GetAllUsers();
         Task<DeleteUserDto> Delete(Guid UserId);
         Task<GetUserDto> Update(EditUserDto EditDto);
+        Task<GetUserDto> GetById(Guid id);
+        Task<List<GetUserDto>> SearchUserByEmailorUsername(string value);
     }
 }
