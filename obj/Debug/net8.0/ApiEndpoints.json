@@ -155,22 +155,6 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.BoardsController",
-    "Method": "CreateBoard",
-    "RelativePath": "api/Boards",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "createBoardsDto",
-        "Type": "TaskMate.DTOs.Boards.CreateBoardsDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskMate.Controllers.BoardsController",
     "Method": "UpdateBoard",
     "RelativePath": "api/Boards",
     "HttpMethod": "PUT",
@@ -259,6 +243,22 @@
         "Name": "AppUserId",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.BoardsController",
+    "Method": "CreateBoard",
+    "RelativePath": "api/Boards/CreateBoard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBoardsDto",
+        "Type": "TaskMate.DTOs.Boards.CreateBoardsDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -452,6 +452,22 @@
         "Name": "CardId",
         "Type": "System.Guid",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.CardsController",
+    "Method": "GetById",
+    "RelativePath": "api/Cards/{CarddId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CarddId",
+        "Type": "System.Guid",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

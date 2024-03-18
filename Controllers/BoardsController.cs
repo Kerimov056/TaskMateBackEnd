@@ -30,7 +30,7 @@ public class BoardsController : ControllerBase
         return Ok(byWorkspace);
     }
 
-    [HttpPost]
+    [HttpPost("[action]")]
     public async Task<IActionResult> CreateBoard(CreateBoardsDto createBoardsDto)
     {
         await _boardsService.CreateAsync(createBoardsDto);

@@ -60,6 +60,15 @@ public class CardService : ICardService
         await _appDbContext.SaveChangesAsync();
     }
 
+    public async Task<GetCardDto> GetByIdAsync(Guid CardId)
+    {
+        var card = await _appDbContext.Cards.FirstOrDefaultAsync(x => x.Id == CardId);
+        if (card is null) throw new NotFoundException("Not Found");
+
+        var toMapper = _mapper.Map<GetCardDto>(card);
+        return toMapper;
+    }
+
     public async Task MoveCardAsync(MoveCard moveCard)
     {
         if (await CheckAdminAsync(moveCard.AppUserId) == false)

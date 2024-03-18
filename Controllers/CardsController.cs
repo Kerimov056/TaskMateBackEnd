@@ -16,6 +16,14 @@ public class CardsController : ControllerBase
         => _cardService = cardService;
 
 
+    [HttpGet("{CarddId:Guid}")]
+    public async Task<IActionResult> GetById(Guid CarddId)
+    {
+        var byWorkspace = await _cardService.GetByIdAsync(CarddId);
+        return Ok(byWorkspace);
+    }
+
+
     [HttpPost]
     public async Task<IActionResult> CreateCard([FromForm] CreateCardDto createCardDto)
     {
