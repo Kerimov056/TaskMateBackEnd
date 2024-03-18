@@ -47,5 +47,20 @@ namespace TaskMate.Controllers
             var Result = await _userSerivce.Update(EditDto);
             return Ok(Result);
         }
+
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var getUserDto = await _userSerivce.GetById(id);
+            return Ok(getUserDto);
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> SearchUserByEmailorUsername(string value)
+        {
+            var getUserDto = await _userSerivce.SearchUserByEmailorUsername(value);
+            return Ok(getUserDto);
+        }
     }
 }

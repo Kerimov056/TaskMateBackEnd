@@ -59,7 +59,7 @@ public class WorkspacesController : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> UpdateWorkspace([FromForm] UpdateWorkspaceDto updateWorkspaceDto)
+    public async Task<IActionResult> UpdateSlider(UpdateWorkspaceDto updateWorkspaceDto)
     {
         await _workspaceService.UpdateAsync(updateWorkspaceDto);
         return Ok();
@@ -68,7 +68,9 @@ public class WorkspacesController : ControllerBase
     [HttpDelete]
     public async Task<IActionResult> Remove(string AppUserId, Guid WorkspaceId)
     {
-        await _workspaceService.Remove(AppUserId, WorkspaceId);
+        await _workspaceService.Remove(AppUserId,WorkspaceId);
         return Ok();
     }
+
+
 }

@@ -43,6 +43,38 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.AppUserController",
+    "Method": "GetById",
+    "RelativePath": "api/AppUser/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.AppUserController",
+    "Method": "SearchUserByEmailorUsername",
+    "RelativePath": "api/AppUser/SearchUserByEmailorUsername",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.AppUserController",
     "Method": "Update",
     "RelativePath": "api/AppUser/Update",
     "HttpMethod": "PUT",
@@ -1056,36 +1088,16 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.WorkspacesController",
-    "Method": "UpdateWorkspace",
+    "Method": "UpdateSlider",
     "RelativePath": "api/Workspaces",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "WorkspaceId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "Title",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Description",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Type",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "AppUserId",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "updateWorkspaceDto",
+        "Type": "TaskMate.DTOs.Workspace.UpdateWorkspaceDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

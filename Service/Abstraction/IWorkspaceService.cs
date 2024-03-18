@@ -19,5 +19,5 @@ public interface IWorkspaceService
     Task<GetWorkspaceDto> GetByIdAsync(Guid WorspaceId);
 
     Task<List<GetWorkspaceInBoardDto>> GetWorkspaceInBoards(string AppUserId);
-    Task Remove(Guid AppUserId, Guid WokspaceId);
+    Task Remove(string AppUserId, Guid WokspaceId);
 }
