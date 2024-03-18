@@ -81,11 +81,26 @@ public class BoardsService : IBoardsService
         await _appDbContext.SaveChangesAsync();
     }
 
-    public async Task<List<GetBoardsDto>> GetAllAsync(Guid WorkspaceId)
+    public async Task<List<GetBoardsDto>> GetAllAsync(string AppUserId, Guid WorkspaceId)
     {
-        var WokrspaceInBoards = await _appDbContext.Boards.Where(x => x.WorkspaceId == WorkspaceId).ToListAsync();
 
-        return _mapper.Map<List<GetBoardsDto>>(WokrspaceInBoards);
+        var appUser = await _appDbContext.AppUsers.FirstOrDefaultAsync(x => x.Id == AppUserId);
+        if (appUser is null) throw new NotFoundException("Not Found");
+
+        var workspaces = await _workspaceService.GetAllAsync(AppUserId);
+        if (workspaces is null) return null;
+
+        bool isTrue = false;
+        foreach (var item in workspaces)
+           if (item.Id == WorkspaceId)  isTrue = true;
+
+
+        if (isTrue)
+        {
+            var WokrspaceInBoards = await _appDbContext.Boards.Where(x => x.WorkspaceId == WorkspaceId).ToListAsync();
+            return _mapper.Map<List<GetBoardsDto>>(WokrspaceInBoards);
+        }
+        else return null;
     }
 
     public async Task<List<GetBoardsDto>> GetByIdAsync(Guid BoardId)
@@ -96,7 +111,7 @@ public class BoardsService : IBoardsService
             throw new NotFoundException("Not Found");
 
         return _mapper.Map<List<GetBoardsDto>>(board);
-       
+
     }
 
     public async Task Remove(string AdminId, Guid BoardId)

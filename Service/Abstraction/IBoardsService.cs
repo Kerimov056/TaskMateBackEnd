@@ -9,6 +9,6 @@ public interface IBoardsService
     Task ShareLinkBoardToUser(LinkShareToBoardDto linkShareToBoardDto);
     Task Remove(string AdminId, Guid BoardId);
     Task UpdateAsync(UpdateBoardsDto updateBoardsDto);
-    Task<List<GetBoardsDto>> GetAllAsync(Guid WorkspaceId);
+    Task<List<GetBoardsDto>> GetAllAsync(string AppUserId, Guid WorkspaceId);
     Task<List<GetBoardsDto>> GetByIdAsync(Guid BoardId);
 }

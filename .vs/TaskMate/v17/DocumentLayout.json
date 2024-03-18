@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\service\\implementations\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\service\\abstraction\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\enelry\\desktop\\taskmatebackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\enelry\\desktop\\taskmatebackend\\service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\enelry\\desktop\\taskmatebackend\\service\\abstraction\\iboardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\iboardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CardService.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\CardService.cs",
-              "RelativeDocumentMoniker": "Service\\Implementations\\CardService.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\CardService.cs",
-              "RelativeToolTip": "Service\\Implementations\\CardService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAUwEQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T05:28:30.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ICardService.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\ICardService.cs",
-              "RelativeDocumentMoniker": "Service\\Abstraction\\ICardService.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\ICardService.cs",
-              "RelativeToolTip": "Service\\Abstraction\\ICardService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Title": "IBoardsService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\IBoardsService.cs",
+              "RelativeDocumentMoniker": "Service\\Abstraction\\IBoardsService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\IBoardsService.cs",
+              "RelativeToolTip": "Service\\Abstraction\\IBoardsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T05:27:52.193Z",
+              "WhenOpened": "2024-03-18T11:09:11.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CardsController.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CardsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CardsController.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CardsController.cs",
-              "RelativeToolTip": "Controllers\\CardsController.cs",
-              "ViewState": "AQIAAAsAAAAgMzMzMzMtwBUAAABBAAAA",
+              "Title": "BoardsController.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
+              "RelativeToolTip": "Controllers\\BoardsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T05:22:57.722Z",
+              "WhenOpened": "2024-03-18T11:04:26.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BoardsController.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
-              "RelativeToolTip": "Controllers\\BoardsController.cs",
-              "ViewState": "AQIAABEAAACAZWZmZmYSwBkAAAADAAAA",
+              "DocumentIndex": 1,
+              "Title": "BoardsService.cs",
+              "DocumentMoniker": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\BoardsService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\BoardsService.cs",
+              "ToolTip": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\BoardsService.cs",
+              "RelativeToolTip": "Service\\Implementations\\BoardsService.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAwGcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T02:57:19.531Z",
+              "WhenOpened": "2024-03-18T11:04:20.998Z",
               "EditorCaption": ""
             }
           ]

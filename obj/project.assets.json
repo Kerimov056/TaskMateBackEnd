@@ -145,12 +145,12 @@
         },
         "compile": {
           "lib/net8.0/MailKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
           "lib/net8.0/MailKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -503,12 +503,12 @@
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "resource": {
@@ -560,12 +560,12 @@
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "resource": {
@@ -620,12 +620,12 @@
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.Workspaces.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "resource": {
@@ -682,12 +682,12 @@
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.Workspaces.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "resource": {
@@ -751,12 +751,12 @@
         },
         "compile": {
           "ref/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -1359,12 +1359,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1372,12 +1372,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1438,12 +1438,12 @@
         },
         "compile": {
           "lib/net8.0/MimeKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
           "lib/net8.0/MimeKit.dll": {
-            "related": ".dll.config;.xml;.pdb"
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -1478,12 +1478,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -1497,12 +1497,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -1510,12 +1510,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -5509,23 +5509,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KINO\\.nuget\\packages\\": {},
+    "C:\\Users\\enelry\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
+      "projectUniqueName": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
       "projectName": "TaskMate",
-      "projectPath": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
-      "packagesPath": "C:\\Users\\KINO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\obj\\",
+      "projectPath": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
+      "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\KINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

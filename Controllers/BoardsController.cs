@@ -16,9 +16,9 @@ public class BoardsController : ControllerBase
         => _boardsService = boardsService;
 
     [HttpGet]
-    public async Task<IActionResult> GetAll(Guid WorkspaceId)
+    public async Task<IActionResult> GetAll(string AppUserId, Guid WorkspaceId)
     {
-        var boards = await _boardsService.GetAllAsync(WorkspaceId);
+        var boards = await _boardsService.GetAllAsync(AppUserId, WorkspaceId);
         return Ok(boards);
     }
 

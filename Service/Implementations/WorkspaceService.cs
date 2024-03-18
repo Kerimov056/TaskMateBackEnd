@@ -46,7 +46,7 @@ public class WorkspaceService : IWorkspaceService
         };
 
         await _appDbContext.WorkspaceUsers.AddAsync(newWorkspaceUser);
-        await _appDbContext.SaveChangesAsync();
+        _appDbContext.SaveChangesAsync();
     }
 
     public async Task CreateAsync(CreateWorkspaceDto createWorkspaceDto)

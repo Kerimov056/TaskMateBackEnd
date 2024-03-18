@@ -146,6 +146,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "AppUserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "WorkspaceId",
         "Type": "System.Guid",
         "IsRequired": false
