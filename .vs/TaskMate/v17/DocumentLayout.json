@@ -34,8 +34,7 @@
               "RelativeToolTip": "Service\\Abstraction\\IBoardsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T11:09:11.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T11:09:11.362Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
               "ToolTip": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
               "RelativeToolTip": "Controllers\\BoardsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBYAAAAEAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T11:04:26.851Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Service\\Implementations\\BoardsService.cs",
               "ViewState": "AQIAAE0AAAAAAAAAAAAAwGcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T11:04:20.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T11:04:20.998Z"
             }
           ]
         }
