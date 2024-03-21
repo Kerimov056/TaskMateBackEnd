@@ -214,5 +214,15 @@ namespace TaskMate.Service.Implementations
             var userDtos = _mapper.Map<List<GetUserDto>>(users);
             return userDtos;
         }
+
+        public async Task<bool> CheckIsAdmin(string AdminId)
+        {
+            var admin = await _context.AppUsers.FirstOrDefaultAsync(x=>x.Id==AdminId);
+            if (admin is null) throw new NotFoundException("Admin Not Found");
+
+            var roleName = (await _userManager.GetRolesAsync(admin)).FirstOrDefault();
+            if (roleName.ToString() == Role.GlobalAdmin.ToString() || roleName.ToString() == Role.Admin.ToString())  return true;
+            return false;
+        }
     }
 }

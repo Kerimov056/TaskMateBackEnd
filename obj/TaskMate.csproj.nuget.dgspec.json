@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\TaskMate.csproj": {}
+    "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\TaskMate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\TaskMate.csproj": {
+    "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\TaskMate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
+        "projectUniqueName": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
         "projectName": "TaskMate",
-        "projectPath": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
-        "packagesPath": "C:\\Users\\enelry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enelry\\Desktop\\TaskMateBackEnd\\obj\\",
+        "projectPath": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\TaskMate.csproj",
+        "packagesPath": "C:\\Users\\Nurlan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\enelry\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Nurlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

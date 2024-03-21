@@ -46,7 +46,7 @@ public class WorkspaceService : IWorkspaceService
         };
 
         await _appDbContext.WorkspaceUsers.AddAsync(newWorkspaceUser);
-        _appDbContext.SaveChangesAsync();
+        await _appDbContext.SaveChangesAsync();
     }
 
     public async Task CreateAsync(CreateWorkspaceDto createWorkspaceDto)
@@ -167,12 +167,12 @@ public class WorkspaceService : IWorkspaceService
         if (worksPace is null)
             throw new NotFoundException("Workspace not found");
 
-        //_mapper.Map(updateWorkspaceDto, worksPace);
-        if (!worksPace.Title.IsNullOrEmpty())
+        _mapper.Map(updateWorkspaceDto, worksPace);
+        if (worksPace.Title != "" || worksPace.Title is not null)
         {
             worksPace.Title = updateWorkspaceDto.Title;
         }
-        if (!worksPace.Description.IsNullOrEmpty())
+        if (worksPace.Description is not null || worksPace.Title != "")
         {
             worksPace.Description = updateWorkspaceDto.Description;
         }

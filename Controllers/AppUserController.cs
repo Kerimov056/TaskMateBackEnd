@@ -35,6 +35,8 @@ namespace TaskMate.Controllers
             var getUserDto = await _userSerivce.GetAllUsers(); 
             return Ok(getUserDto);
         }
+
+
         [HttpDelete("[action]")]
         public async Task<IActionResult> DeleteUser(Guid UserId)
         {
@@ -54,6 +56,13 @@ namespace TaskMate.Controllers
         {
             var getUserDto = await _userSerivce.GetById(id);
             return Ok(getUserDto);
+        }
+        
+        [HttpGet("[action]")]
+        public async Task<IActionResult> CheckAdmin(string AdminId)
+        {
+            var isAdmin = await _userSerivce.CheckIsAdmin(AdminId);
+            return Ok(isAdmin);
         }
 
         [HttpGet("[action]")]

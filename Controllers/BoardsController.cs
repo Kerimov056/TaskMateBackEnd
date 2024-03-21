@@ -52,16 +52,16 @@ public class BoardsController : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> UpdateBoard([FromForm] UpdateBoardsDto updateBoardsDto)
+    public async Task<IActionResult> UpdateBoard(UpdateBoardsDto updateBoardsDto)
     {
         await _boardsService.UpdateAsync(updateBoardsDto);
         return Ok();
     }
 
     [HttpDelete]
-    public async Task<IActionResult> Remove(string AppUserId, Guid BoardId)
+    public async Task<IActionResult> Remove([FromBody] BoardRemoveDto dto)
     {
-        await _boardsService.Remove(AppUserId, BoardId);
+        await _boardsService.Remove(dto.AppUserId, dto.BoardId);
         return Ok();
     }
 }

@@ -13,5 +13,6 @@ namespace TaskMate.Service.Abstraction
         Task<GetUserDto> Update(EditUserDto EditDto);
         Task<GetUserDto> GetById(Guid id);
         Task<List<GetUserDto>> SearchUserByEmailorUsername(string value);
+        Task<bool> CheckIsAdmin(string AdminId);
     }
 }

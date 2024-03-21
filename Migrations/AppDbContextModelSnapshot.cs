@@ -258,7 +258,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("WorkspaceId");
 
-                    b.ToTable("Boards", (string)null);
+                    b.ToTable("Boards");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Card", b =>
@@ -296,7 +296,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("CardListId");
 
-                    b.ToTable("Cards", (string)null);
+                    b.ToTable("Cards");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CardList", b =>
@@ -325,7 +325,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("BoardsId");
 
-                    b.ToTable("CardLists", (string)null);
+                    b.ToTable("CardLists");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Checkitem", b =>
@@ -360,7 +360,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("ChecklistId");
 
-                    b.ToTable("Checkitems", (string)null);
+                    b.ToTable("Checkitems");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Checklist", b =>
@@ -392,7 +392,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("CardId");
 
-                    b.ToTable("Checklists", (string)null);
+                    b.ToTable("Checklists");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Comment", b =>
@@ -430,7 +430,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("CardId");
 
-                    b.ToTable("Comments", (string)null);
+                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CustomFieldDropdownOptions", b =>
@@ -463,7 +463,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("CustomFieldsId");
 
-                    b.ToTable("CustomFieldDropdownOptions", (string)null);
+                    b.ToTable("CustomFieldDropdownOptions");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CustomFields", b =>
@@ -495,7 +495,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("CardId");
 
-                    b.ToTable("CustomFields", (string)null);
+                    b.ToTable("CustomFields");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CustomFieldsCheckbox", b =>
@@ -524,7 +524,7 @@ namespace TaskMate.Migrations
                     b.HasIndex("CustomFieldsId")
                         .IsUnique();
 
-                    b.ToTable("CustomFieldsCheckboxes", (string)null);
+                    b.ToTable("CustomFieldsCheckboxes");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CustomFieldsDate", b =>
@@ -553,7 +553,7 @@ namespace TaskMate.Migrations
                     b.HasIndex("CustomFieldsId")
                         .IsUnique();
 
-                    b.ToTable("CustomFieldsDates", (string)null);
+                    b.ToTable("CustomFieldsDates");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CustomFieldsNumber", b =>
@@ -582,7 +582,7 @@ namespace TaskMate.Migrations
                     b.HasIndex("CustomFieldsId")
                         .IsUnique();
 
-                    b.ToTable("CustomFieldsNumbers", (string)null);
+                    b.ToTable("CustomFieldsNumbers");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.CustomFieldsText", b =>
@@ -611,7 +611,7 @@ namespace TaskMate.Migrations
                     b.HasIndex("CustomFieldsId")
                         .IsUnique();
 
-                    b.ToTable("CustomFieldsTexts", (string)null);
+                    b.ToTable("CustomFieldsTexts");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.LabelCard", b =>
@@ -641,7 +641,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("LabelId");
 
-                    b.ToTable("LabelCards", (string)null);
+                    b.ToTable("LabelCards");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Labels", b =>
@@ -673,7 +673,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("BoardsId");
 
-                    b.ToTable("Labels", (string)null);
+                    b.ToTable("Labels");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Slider", b =>
@@ -698,7 +698,7 @@ namespace TaskMate.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slider", (string)null);
+                    b.ToTable("Slider");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.UserBoards", b =>
@@ -729,7 +729,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("BoardsId");
 
-                    b.ToTable("UserBoards", (string)null);
+                    b.ToTable("UserBoards");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.Workspace", b =>
@@ -759,7 +759,7 @@ namespace TaskMate.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Workspaces", (string)null);
+                    b.ToTable("Workspaces");
                 });
 
             modelBuilder.Entity("TaskMate.Entities.WorkspaceUser", b =>
@@ -790,7 +790,7 @@ namespace TaskMate.Migrations
 
                     b.HasIndex("WorkspaceId");
 
-                    b.ToTable("WorkspaceUsers", (string)null);
+                    b.ToTable("WorkspaceUsers");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

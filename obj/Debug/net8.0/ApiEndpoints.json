@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "TaskMate.Controllers.AppUserController",
+    "Method": "CheckAdmin",
+    "RelativePath": "api/AppUser/CheckAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.AppUserController",
     "Method": "CreateUser",
     "RelativePath": "api/AppUser/CreateUser",
     "HttpMethod": "POST",
@@ -167,19 +183,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "BoardId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "AppUserId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Title",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "updateBoardsDto",
+        "Type": "TaskMate.DTOs.Boards.UpdateBoardsDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -193,14 +199,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "AppUserId",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "BoardId",
-        "Type": "System.Guid",
-        "IsRequired": false
+        "Name": "dto",
+        "Type": "TaskMate.DTOs.Boards.BoardRemoveDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

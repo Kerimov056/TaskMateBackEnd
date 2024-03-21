@@ -8,3 +8,4 @@ public class LinkShareToBoardDto
     public string UsernameOrEmail { get; set; }
     public string Password { get; set; }
 }
+
