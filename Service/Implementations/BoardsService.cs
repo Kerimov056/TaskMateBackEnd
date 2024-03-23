@@ -106,7 +106,7 @@ public class BoardsService : IBoardsService
     public async Task<List<GetBoardsDto>> GetByIdAsync(Guid BoardId)
     {
         var board = await _appDbContext.Boards.Include(x => x.CardLists)
-                               .ThenInclude(x => x.Cards).Where(x => x.Id == BoardId).ToListAsync();
+                               .ThenInclude(x => x.Cards.OrderByDescending(x=>x.CreatedDate)).Where(x => x.Id == BoardId).ToListAsync();
         if (board is null)
             throw new NotFoundException("Not Found");
 
