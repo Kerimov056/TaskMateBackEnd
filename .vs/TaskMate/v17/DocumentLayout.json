@@ -1,38 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\service\\implementations\\workspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\workspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\r\\desktop\\taskmatebackend\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\r\\desktop\\taskmatebackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\service\\implementations\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\r\\desktop\\taskmatebackend\\service\\abstraction\\iworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\iworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\service\\abstraction\\iuserserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\iuserserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\dtos\\workspace\\updateworkspacedto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\workspace\\updateworkspacedto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\nurlan\\desktop\\taskmatebackend\\dtos\\boards\\linksharetoboarddto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\boards\\linksharetoboarddto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\r\\desktop\\taskmatebackend\\controllers\\workspacescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\workspacescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LinkShareToBoardDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\DTOs\\Boards\\LinkShareToBoardDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Boards\\LinkShareToBoardDto.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\DTOs\\Boards\\LinkShareToBoardDto.cs",
-              "RelativeToolTip": "DTOs\\Boards\\LinkShareToBoardDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "BoardsController.cs",
+              "DocumentMoniker": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
+              "ToolTip": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
+              "RelativeToolTip": "Controllers\\BoardsController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwCgAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T16:14:16.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateWorkspaceDto.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\DTOs\\Workspace\\UpdateWorkspaceDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Workspace\\UpdateWorkspaceDto.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\DTOs\\Workspace\\UpdateWorkspaceDto.cs",
-              "RelativeToolTip": "DTOs\\Workspace\\UpdateWorkspaceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T18:15:15.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WorkspaceService.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\WorkspaceService.cs",
-              "RelativeDocumentMoniker": "Service\\Implementations\\WorkspaceService.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\WorkspaceService.cs",
-              "RelativeToolTip": "Service\\Implementations\\WorkspaceService.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAYwIQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T02:47:35.083Z",
+              "WhenOpened": "2024-03-23T01:47:47.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BoardsService.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\BoardsService.cs",
-              "RelativeDocumentMoniker": "Service\\Implementations\\BoardsService.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\BoardsService.cs",
-              "RelativeToolTip": "Service\\Implementations\\BoardsService.cs",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAUwIYAAAA4AAAA",
+              "DocumentIndex": 0,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:49:20.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BoardsController.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Controllers\\BoardsController.cs",
-              "RelativeToolTip": "Controllers\\BoardsController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAA6wAsAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T15:49:31.641Z"
+              "WhenOpened": "2024-03-23T01:21:26.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppUserController.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Controllers\\AppUserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AppUserController.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Controllers\\AppUserController.cs",
-              "RelativeToolTip": "Controllers\\AppUserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAqwD4AAAAIAAAA",
+              "Title": "IWorkspaceService.cs",
+              "DocumentMoniker": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\IWorkspaceService.cs",
+              "RelativeDocumentMoniker": "Service\\Abstraction\\IWorkspaceService.cs",
+              "ToolTip": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\IWorkspaceService.cs",
+              "RelativeToolTip": "Service\\Abstraction\\IWorkspaceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:47:10.944Z"
+              "WhenOpened": "2024-03-23T01:15:19.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserSerivce.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\IUserSerivce.cs",
-              "RelativeDocumentMoniker": "Service\\Abstraction\\IUserSerivce.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Abstraction\\IUserSerivce.cs",
-              "RelativeToolTip": "Service\\Abstraction\\IUserSerivce.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "DocumentIndex": 3,
+              "Title": "WorkspacesController.cs",
+              "DocumentMoniker": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Controllers\\WorkspacesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkspacesController.cs",
+              "ToolTip": "C:\\Users\\R\\Desktop\\TaskMateBackEnd\\Controllers\\WorkspacesController.cs",
+              "RelativeToolTip": "Controllers\\WorkspacesController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowC8AAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:43:21.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\AppUserService.cs",
-              "RelativeDocumentMoniker": "Service\\Implementations\\AppUserService.cs",
-              "ToolTip": "C:\\Users\\Nurlan\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\AppUserService.cs",
-              "RelativeToolTip": "Service\\Implementations\\AppUserService.cs",
-              "ViewState": "AQIAANEAAAAAAAAAAAAzwNwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T16:43:18.033Z"
+              "WhenOpened": "2024-03-23T01:04:31.255Z",
+              "EditorCaption": ""
             }
           ]
         }

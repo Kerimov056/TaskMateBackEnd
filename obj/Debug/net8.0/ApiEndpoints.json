@@ -1093,6 +1093,42 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskMate.Controllers.TokenController",
+    "Method": "GetToken",
+    "RelativePath": "api/Token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.TokenController",
+    "Method": "GetToken",
+    "RelativePath": "api/Token/GetToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TokenId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "TaskMate.Controllers.WorkspacesController",
     "Method": "CreateWorkspace",
     "RelativePath": "api/Workspaces",

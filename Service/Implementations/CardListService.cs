@@ -25,13 +25,8 @@ public class CardListService : ICardListService
     }
     public async Task CreateAsync(CreateCardListDto createCardListDto)
     {
-        var byAdmin = await _userManager.FindByIdAsync(createCardListDto.AppUserId);
-
-        var adminRol = await _userManager.GetRolesAsync(byAdmin);
-
-        if (adminRol.FirstOrDefault().ToString() != Role.GlobalAdmin.ToString() &&
-            adminRol.FirstOrDefault().ToString() != Role.Admin.ToString())
-            throw new PermisionException("No Access");
+        var user = await _userManager.FindByIdAsync(createCardListDto.AppUserId);
+        if (user == null) throw new NotFoundException("User Not Found");
 
         if (_appDbContext.Boards.Where(x => x.Id == createCardListDto.BoardsId) is null)
             throw new NotFoundException("Not Found Workspace");

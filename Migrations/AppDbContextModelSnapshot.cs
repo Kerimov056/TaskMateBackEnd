@@ -701,6 +701,19 @@ namespace TaskMate.Migrations
                     b.ToTable("Slider");
                 });
 
+            modelBuilder.Entity("TaskMate.Entities.Token", b =>
+                {
+                    b.Property<string>("TokenId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("CreateToken")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("TokenId");
+
+                    b.ToTable("Tokens");
+                });
+
             modelBuilder.Entity("TaskMate.Entities.UserBoards", b =>
                 {
                     b.Property<Guid>("Id")

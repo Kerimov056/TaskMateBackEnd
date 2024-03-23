@@ -1,6 +1,7 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using TaskMate.BackGroundServıces;
 using TaskMate.Context;
 using TaskMate.ExtensionsMethods.Infrastructure;
 using TaskMate.ExtensionsMethods.Persistence;
@@ -12,6 +13,10 @@ builder.Services.AddControllers();
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddScoped<AppDbContextInitializer>();
+
+
+builder.Services.AddHostedService<TokenBackgroundService>();
+
 
 builder.Services.AddCors();
 builder.Services.AddCors(options =>
