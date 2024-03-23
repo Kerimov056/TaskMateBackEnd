@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TaskMate.Context;
 using TaskMate.DTOs.Checklist;
@@ -20,10 +21,10 @@ public class ChecklistService : IChecklistService
         _checkitemService = checkitemService;
 
     }
-    public async Task CreateAsync(CreateChecklistDto createChecklistDto)
+    public async Task CreateAsync([FromForm] CreateChecklistDto createChecklistDto)
     {
         var card = await _appDbContext.Cards.FirstOrDefaultAsync(x => x.Id == createChecklistDto.CardId);
-        if (card is null) throw new NotFoundException("Not Found");
+        if (card is null) throw new NotFoundException("Not Found Card");
 
         var newCheckList = _mapper.Map<Checklist>(createChecklistDto);
 

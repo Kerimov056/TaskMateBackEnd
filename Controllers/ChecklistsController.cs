@@ -17,7 +17,7 @@ public class ChecklistsController : ControllerBase
         => _checklistService = checklistService;
 
 
-    [HttpGet]
+    [HttpGet("[action]")]
     public async Task<IActionResult> GetAll(Guid CardId)
     {
         var boards = await _checklistService.GetAllAsync(CardId);

@@ -7,6 +7,8 @@ public class GetCardDto
     public string Description { get; set; }
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
+    public DateTime? Reminder { get; set; }
+    public string? DateColor { get; set; }
     public Guid CardListId { get; set; }
 
 }

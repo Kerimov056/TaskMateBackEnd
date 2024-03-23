@@ -30,12 +30,13 @@ public class CardService : ICardService
         if (cardAddDatesDto.StartDate > cardAddDatesDto.EndDate)
             throw new Exception("Start date cannot be greater than end date");
 
-        var card = await _appDbContext.Cards.Where(x => x.Id == cardAddDatesDto.CardId).FirstOrDefaultAsync();
+        var card = await _appDbContext.Cards.FirstOrDefaultAsync(x => x.Id == cardAddDatesDto.CardId);
         if (card is null)
             throw new NotFoundException("Not Found");
 
         card.StartDate = cardAddDatesDto.StartDate;
         card.EndDate = cardAddDatesDto.EndDate;
+        card.Reminder = cardAddDatesDto.Reminder;
 
         _appDbContext.Cards.Update(card);
         await _appDbContext.SaveChangesAsync();
@@ -47,7 +48,22 @@ public class CardService : ICardService
             throw new NotFoundException("Not Found Workspace");
 
         var newcard = _mapper.Map<Card>(createCardDto);
+
         await _appDbContext.Cards.AddAsync(newcard);
+        await _appDbContext.SaveChangesAsync();
+    }
+
+    public async Task DeleteCardDate(Guid CardId)
+    {
+        var card = await _appDbContext.Cards.FirstOrDefaultAsync(x => x.Id == CardId);
+        if (card is null) throw new NotFoundException("Card Not Found");
+
+        card.StartDate = null;
+        card.EndDate = null;
+        card.Reminder = null;
+        card.DateColor = "transparent";
+
+        _appDbContext.Cards.Update(card);
         await _appDbContext.SaveChangesAsync();
     }
 

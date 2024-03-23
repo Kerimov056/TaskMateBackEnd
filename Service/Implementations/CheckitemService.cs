@@ -55,10 +55,9 @@ public class CheckitemService : ICheckitemService
 
         if (updateCheckitemDto.Text is null)
             checkitem.Text = updateCheckitemDto.Text;
-        if (updateCheckitemDto.Text is null)
+        if (updateCheckitemDto.DueDate is null)
             checkitem.DueDate = updateCheckitemDto.DueDate;
-        if (updateCheckitemDto.Text is null)
-            checkitem.Check = updateCheckitemDto.Check;
+        checkitem.Check = updateCheckitemDto.Check;
 
         _appDbContext.Update(checkitem);
         await _appDbContext.SaveChangesAsync();

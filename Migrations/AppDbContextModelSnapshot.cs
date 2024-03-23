@@ -273,6 +273,9 @@ namespace TaskMate.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("DateColor")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
@@ -280,6 +283,9 @@ namespace TaskMate.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Reminder")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("StartDate")

@@ -16,6 +16,7 @@ builder.Services.AddScoped<AppDbContextInitializer>();
 
 
 builder.Services.AddHostedService<TokenBackgroundService>();
+builder.Services.AddHostedService<CardDateBackgroundService>();
 
 
 builder.Services.AddCors();

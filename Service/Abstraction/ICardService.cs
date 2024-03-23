@@ -11,4 +11,5 @@ public interface ICardService
     Task AddCardDateAsync(CardAddDatesDto cardAddDatesDto);
     Task MoveCardAsync(MoveCard moveCard);
     Task DragAndDrop(DragAndDropCardDto dragAndDropCardDto);
+    Task DeleteCardDate(Guid CardId);
 }

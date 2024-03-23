@@ -500,6 +500,11 @@
         "Name": "EndDate",
         "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      },
+      {
+        "Name": "Reminder",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -631,22 +636,6 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.ChecklistsController",
-    "Method": "GetAll",
-    "RelativePath": "api/Checklists",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "CardId",
-        "Type": "System.Guid",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TaskMate.Controllers.ChecklistsController",
     "Method": "Createchecklist",
     "RelativePath": "api/Checklists",
     "HttpMethod": "POST",
@@ -697,6 +686,22 @@
     "Parameters": [
       {
         "Name": "CheckListId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.ChecklistsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Checklists/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CardId",
         "Type": "System.Guid",
         "IsRequired": false
       }

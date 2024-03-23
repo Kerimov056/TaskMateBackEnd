@@ -65,4 +65,11 @@ public class CardsController : ControllerBase
         await _cardService.Remove(AppUserId, CardId);
         return Ok();
     }
+
+    [HttpPut("[action]")]
+    public async Task<IActionResult> CardDeleteDate(Guid CardId)
+    {
+        await _cardService.DeleteCardDate(CardId);
+        return Ok();
+    }
 }
