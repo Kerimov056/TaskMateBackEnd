@@ -24,6 +24,8 @@ public class CardDateBackgroundService : IHostedService
             var today = DateTime.Now;
 
             var cards = await _dbContext.Cards.Where(x => x.Reminder != null
+                                            && x.IsDateStatus !=null
+                                            && x.IsDateStatus == false
                                             && x.Reminder.Value.Day == today.Day
                                             && x.Reminder.Value.Hour == today.Hour
                                             && x.Reminder.Value.Minute == today.Minute).ToListAsync();

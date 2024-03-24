@@ -9,6 +9,7 @@ public class GetCardDto
     public DateTime? EndDate { get; set; }
     public DateTime? Reminder { get; set; }
     public string? DateColor { get; set; }
+    public bool? IsDateStatus { get; set; }
     public Guid CardListId { get; set; }
 
 }

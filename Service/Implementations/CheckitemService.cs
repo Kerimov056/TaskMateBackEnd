@@ -53,10 +53,8 @@ public class CheckitemService : ICheckitemService
         if (checkitem is null)
             throw new NotFoundException("Not Found");
 
-        if (updateCheckitemDto.Text is null)
-            checkitem.Text = updateCheckitemDto.Text;
-        if (updateCheckitemDto.DueDate is null)
-            checkitem.DueDate = updateCheckitemDto.DueDate;
+        checkitem.Text = updateCheckitemDto.Text;
+        checkitem.DueDate = updateCheckitemDto.DueDate;
         checkitem.Check = updateCheckitemDto.Check;
 
         _appDbContext.Update(checkitem);

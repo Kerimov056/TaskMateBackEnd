@@ -480,6 +480,38 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.CardsController",
+    "Method": "CardDeleteDate",
+    "RelativePath": "api/Cards/CardDeleteDate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.CardsController",
+    "Method": "EditCardDateStatus",
+    "RelativePath": "api/Cards/EditCardDateStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.CardsController",
     "Method": "UpdateCard",
     "RelativePath": "api/Cards/UpdateCard",
     "HttpMethod": "PUT",
@@ -504,6 +536,11 @@
       {
         "Name": "Reminder",
         "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "isDateStatus",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],

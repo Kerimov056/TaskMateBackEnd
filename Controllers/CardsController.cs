@@ -43,6 +43,13 @@ public class CardsController : ControllerBase
     {
         await _cardService.AddCardDateAsync(cardAddDatesDto);
         return Ok();
+    }    
+    
+    [HttpPut("[action]")]
+    public async Task<IActionResult> EditCardDateStatus(Guid CardId)
+    {
+        await _cardService.CardDateEditIsStatus(CardId);
+        return Ok();
     }  
     
     [HttpPut("[action]")]

@@ -37,8 +37,21 @@ public class CardService : ICardService
         card.StartDate = cardAddDatesDto.StartDate;
         card.EndDate = cardAddDatesDto.EndDate;
         card.Reminder = cardAddDatesDto.Reminder;
+        card.DateColor = "transparent";
+        card.IsDateStatus = false;
 
         _appDbContext.Cards.Update(card);
+        await _appDbContext.SaveChangesAsync();
+    }
+
+    public async Task CardDateEditIsStatus(Guid CardId)
+    {
+        var card = await _appDbContext.Cards.FirstOrDefaultAsync(x=>x.Id==CardId);
+        if (card is null) throw new NotFoundException("Not Found");
+
+        card.IsDateStatus = !card.IsDateStatus;
+
+        _appDbContext.Update(card);
         await _appDbContext.SaveChangesAsync();
     }
 

@@ -10,6 +10,7 @@ public class Card : BaseEntity
     public DateTime? EndDate { get; set; }
     public DateTime? Reminder { get; set; }
     public string? DateColor { get; set; } = "transparent";
+    public bool? IsDateStatus {  get; set; }
 
     //Rellations
     public CardList CardList { get; set; }

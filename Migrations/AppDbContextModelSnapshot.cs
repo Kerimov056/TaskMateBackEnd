@@ -282,6 +282,9 @@ namespace TaskMate.Migrations
                     b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool?>("IsDateStatus")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("ModiffiedDate")
                         .HasColumnType("datetime2");
 

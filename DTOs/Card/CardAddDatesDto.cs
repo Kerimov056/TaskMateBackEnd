@@ -6,5 +6,5 @@ public class CardAddDatesDto
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
     public DateTime? Reminder { get; set; }
-
+    public bool? isDateStatus { get; set; } = false;
 }
