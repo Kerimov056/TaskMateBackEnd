@@ -42,8 +42,7 @@
               "RelativeToolTip": "Controllers\\CustomFieldsController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAhwBwAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T02:14:46.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T02:14:46.749Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "DTOs\\CustomField\\UpdateCustomFieldDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T02:10:17.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T02:10:17.965Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "DTOs\\CustomField\\GetCustomFieldDto.cs",
               "ViewState": "AQIAAAYAAABAMzMzMzMbwA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T02:10:02.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T02:10:02.269Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Entities\\CustomFields.cs",
               "ViewState": "AQIAAAMAAAAAMzMzMzMLwAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T02:08:03.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T02:08:03.753Z"
             }
           ]
         }
