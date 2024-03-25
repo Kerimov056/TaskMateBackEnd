@@ -306,6 +306,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskMate.Controllers.CardCoverController",
+    "Method": "CreateCardCover",
+    "RelativePath": "api/CardCover/CreateCardCover",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Dto",
+        "Type": "TaskMate.DTOs.CardCoverDto.CardCoverCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.CardCoverController",
+    "Method": "GetCardCover",
+    "RelativePath": "api/CardCover/GetCardCover",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskMate.Controllers.CardListsController",
     "Method": "CreateCardList",
     "RelativePath": "api/CardLists",

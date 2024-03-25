@@ -51,6 +51,7 @@ public static class ServiceRegistration
         services.AddScoped<ILabelService, LabelService>();
         services.AddScoped<IChecklistService, ChecklistService>();
         services.AddScoped<ICheckitemService, CheckitemService>();
+        services.AddScoped<ICardCoverService, CardCoverService>();
 
 
         services.AddScoped<ICustomFieldsService, CustomFieldsService>();

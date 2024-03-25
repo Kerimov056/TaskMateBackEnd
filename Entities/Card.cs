@@ -5,12 +5,13 @@ namespace TaskMate.Entities;
 public class Card : BaseEntity
 {
     public string Title { get; set; }
+    public string? CoverColor { get; set; }
     public string? Description { get; set; }
     public DateTime? StartDate { get; set; }
     public DateTime? EndDate { get; set; }
     public DateTime? Reminder { get; set; }
     public string? DateColor { get; set; } = "transparent";
-    public bool? IsDateStatus {  get; set; }
+    public bool? IsDateStatus { get; set; }
 
     //Rellations
     public CardList CardList { get; set; }

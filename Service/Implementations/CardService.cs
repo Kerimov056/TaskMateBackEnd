@@ -46,7 +46,7 @@ public class CardService : ICardService
 
     public async Task CardDateEditIsStatus(Guid CardId)
     {
-        var card = await _appDbContext.Cards.FirstOrDefaultAsync(x=>x.Id==CardId);
+        var card = await _appDbContext.Cards.FirstOrDefaultAsync(x => x.Id == CardId);
         if (card is null) throw new NotFoundException("Not Found");
 
         card.IsDateStatus = !card.IsDateStatus;
@@ -103,7 +103,7 @@ public class CardService : ICardService
         if (await CheckAdminAsync(moveCard.AppUserId) == false)
             throw new PermisionException("No Access");
 
-        if (await _appDbContext.Boards.FirstOrDefaultAsync(x=>x.Id==moveCard.BoardId) is null)
+        if (await _appDbContext.Boards.FirstOrDefaultAsync(x => x.Id == moveCard.BoardId) is null)
             throw new NotFoundException("Not Found Exception");
 
         DragAndDropCardDto dragAndDropCardDto = new()
