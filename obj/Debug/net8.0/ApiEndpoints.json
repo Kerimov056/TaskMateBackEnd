@@ -544,6 +544,22 @@
   },
   {
     "ContainingType": "TaskMate.Controllers.CardsController",
+    "Method": "GetUsersInCard",
+    "RelativePath": "api/Cards/GetUsersInCard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BoardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskMate.Controllers.CardsController",
     "Method": "UpdateCard",
     "RelativePath": "api/Cards/UpdateCard",
     "HttpMethod": "PUT",

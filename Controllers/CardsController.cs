@@ -22,7 +22,12 @@ public class CardsController : ControllerBase
         var byWorkspace = await _cardService.GetByIdAsync(CarddId);
         return Ok(byWorkspace);
     }
-
+    [HttpGet("[Action]")]
+    public async Task<IActionResult> GetUsersInCard(Guid BoardId)
+    {
+        var byWorkspace = await _cardService.GetAllUsers(BoardId);
+        return Ok(byWorkspace);
+    }
 
     [HttpPost]
     public async Task<IActionResult> CreateCard([FromForm] CreateCardDto createCardDto)

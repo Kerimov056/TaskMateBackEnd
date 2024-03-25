@@ -13,7 +13,7 @@ namespace TaskMate.Service.Implementations;
 public class CardService : ICardService
 {
     private readonly AppDbContext _appDbContext;
-    private readonly UserManager<AppUser> _userManager;
+    private readonly UserManager<AppUser> _userManager; 
     private readonly IMapper _mapper;
 
     public CardService(AppDbContext appDbContext, UserManager<AppUser> userManager, IMapper mapper)
@@ -152,5 +152,15 @@ public class CardService : ICardService
             return false;
         }
         return true;
+    }
+
+    public async Task<List<AppUser>> GetAllUsers(Guid boardId)
+    {
+        var users = await _appDbContext.UserBoards
+            .Where(x => x.BoardsId == boardId)
+            .Include(x => x.AppUser)
+            .Select(x => x.AppUser)
+            .ToListAsync();
+        return users;
     }
 }
