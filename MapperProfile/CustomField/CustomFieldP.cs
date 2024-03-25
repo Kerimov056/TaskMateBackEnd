@@ -8,7 +8,7 @@ public class CustomFieldP : Profile
 {
     public CustomFieldP()
     {
-        CreateMap<CreateCustomFieldDto, CustomFields>().ReverseMap();
+        CreateMap<CustomFields, CreateCustomFieldDto> ().ReverseMap();
         CreateMap<CustomFields, UpdateCustomFieldDto>().ReverseMap();
         CreateMap<CustomFields, GetCustomFieldDto>()
             .ForMember(dest => dest.GetCustomFieldDropdownOptions, opt => opt.MapFrom(src => src.CustomFieldDropdownOptions))

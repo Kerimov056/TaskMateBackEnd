@@ -988,6 +988,11 @@
         "Name": "Title",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "CardFrontOff",
+        "Type": "System.Boolean",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

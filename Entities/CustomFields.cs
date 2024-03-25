@@ -7,6 +7,7 @@ public class CustomFields:BaseEntity
 {
     public string Title { get; set; }
     public CustomFieldsType Type { get; set; }
+    public bool CardFrontOff { get; set; } = false;
 
     //Rellations
     public Card Card { get; set; }

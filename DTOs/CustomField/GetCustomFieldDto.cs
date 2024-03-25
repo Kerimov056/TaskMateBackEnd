@@ -13,8 +13,9 @@ public class GetCustomFieldDto
     public Guid Id { get; set; }
     public string Title { get; set; }
     public CustomFieldsType Type { get; set; }
+    public bool CardFrontOff { get; set; }
     public Guid CardId { get; set; }
-    public List<GetCustomFieldDropdownOption>? GetCustomFieldDropdownOptions { get; set; }
+    public List<GetCustomFieldDropdownOption>? GetCustomFieldDropdownOptions { get; set; } = new List<GetCustomFieldDropdownOption>();
     public GetCustomFieldDateDto GetCustomFieldDateDto { get; set; }
     public GetCustomFieldCheckboxDto GetCustomFieldCheckboxDto { get; set; }
     public GetCustomFieldNumberDto GetCustomFieldNumberDto { get; set; }

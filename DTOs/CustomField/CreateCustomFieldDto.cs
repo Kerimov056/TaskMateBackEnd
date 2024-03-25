@@ -8,6 +8,7 @@ public class CreateCustomFieldDto
     public string Title { get; set; }
     public CustomFieldsType Type { get; set; }
     public Guid CardId { get; set; }
+    public bool CardFrontOff { get; set; }
     public List<CreateCustomFieldDropdownOption>? CreateCustomFieldDropdownOptions { get; set; }
 
 }

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\service\\implementations\\checkitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\checkitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\dtos\\customfield\\createcustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\customfield\\createcustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\controllers\\checkitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\checkitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\entities\\customfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:entities\\customfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\controllers\\checklistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\checklistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\controllers\\customfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\customfieldscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\dtos\\customfield\\updatecustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\customfield\\updatecustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\kino\\desktop\\taskmatebackend\\dtos\\customfield\\getcustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\customfield\\getcustomfielddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CheckitemService.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\CheckitemService.cs",
-              "RelativeDocumentMoniker": "Service\\Implementations\\CheckitemService.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Service\\Implementations\\CheckitemService.cs",
-              "RelativeToolTip": "Service\\Implementations\\CheckitemService.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAADYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T16:30:42.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CheckitemsController.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CheckitemsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CheckitemsController.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CheckitemsController.cs",
-              "RelativeToolTip": "Controllers\\CheckitemsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T16:30:37.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ChecklistsController.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\ChecklistsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ChecklistsController.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\ChecklistsController.cs",
-              "RelativeToolTip": "Controllers\\ChecklistsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Title": "CustomFieldsController.cs",
+              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CustomFieldsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomFieldsController.cs",
+              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CustomFieldsController.cs",
+              "RelativeToolTip": "Controllers\\CustomFieldsController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAhwBwAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T16:30:22.294Z",
+              "WhenOpened": "2024-03-25T02:14:46.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CardsController.cs",
-              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CardsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CardsController.cs",
-              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Controllers\\CardsController.cs",
-              "RelativeToolTip": "Controllers\\CardsController.cs",
-              "ViewState": "AQIAACYAAACAZmZmZmYqwDAAAAA4AAAA",
+              "Title": "UpdateCustomFieldDto.cs",
+              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\DTOs\\CustomField\\UpdateCustomFieldDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomField\\UpdateCustomFieldDto.cs",
+              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\DTOs\\CustomField\\UpdateCustomFieldDto.cs",
+              "RelativeToolTip": "DTOs\\CustomField\\UpdateCustomFieldDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T16:04:30.205Z",
+              "WhenOpened": "2024-03-25T02:10:17.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCustomFieldDto.cs",
+              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\DTOs\\CustomField\\GetCustomFieldDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomField\\GetCustomFieldDto.cs",
+              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\DTOs\\CustomField\\GetCustomFieldDto.cs",
+              "RelativeToolTip": "DTOs\\CustomField\\GetCustomFieldDto.cs",
+              "ViewState": "AQIAAAYAAABAMzMzMzMbwA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T02:10:02.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateCustomFieldDto.cs",
+              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\DTOs\\CustomField\\CreateCustomFieldDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CustomField\\CreateCustomFieldDto.cs",
+              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\DTOs\\CustomField\\CreateCustomFieldDto.cs",
+              "RelativeToolTip": "DTOs\\CustomField\\CreateCustomFieldDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T02:09:38.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomFields.cs",
+              "DocumentMoniker": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Entities\\CustomFields.cs",
+              "RelativeDocumentMoniker": "Entities\\CustomFields.cs",
+              "ToolTip": "C:\\Users\\KINO\\Desktop\\TaskMateBackEnd\\Entities\\CustomFields.cs",
+              "RelativeToolTip": "Entities\\CustomFields.cs",
+              "ViewState": "AQIAAAMAAAAAMzMzMzMLwAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T02:08:03.753Z",
               "EditorCaption": ""
             }
           ]

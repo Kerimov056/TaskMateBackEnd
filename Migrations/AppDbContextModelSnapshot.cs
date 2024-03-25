@@ -481,6 +481,9 @@ namespace TaskMate.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("CardFrontOff")
+                        .HasColumnType("bit");
+
                     b.Property<Guid>("CardId")
                         .HasColumnType("uniqueidentifier");
 
