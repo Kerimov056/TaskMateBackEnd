@@ -238,6 +238,9 @@ namespace TaskMate.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("BoardAccessibility")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
@@ -269,6 +272,9 @@ namespace TaskMate.Migrations
 
                     b.Property<Guid>("CardListId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CoverColor")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -688,6 +694,44 @@ namespace TaskMate.Migrations
                     b.ToTable("Labels");
                 });
 
+            modelBuilder.Entity("TaskMate.Entities.Notification", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<Guid?>("BoardId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsSeen")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ModiffiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Text")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("WorkspaceId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("Notifications");
+                });
+
             modelBuilder.Entity("TaskMate.Entities.Slider", b =>
                 {
                     b.Property<Guid>("Id")
@@ -1039,6 +1083,17 @@ namespace TaskMate.Migrations
                     b.Navigation("Boards");
                 });
 
+            modelBuilder.Entity("TaskMate.Entities.Notification", b =>
+                {
+                    b.HasOne("TaskMate.Entities.AppUser", "AppUser")
+                        .WithMany("Notifications")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+                });
+
             modelBuilder.Entity("TaskMate.Entities.UserBoards", b =>
                 {
                     b.HasOne("TaskMate.Entities.AppUser", "AppUser")
@@ -1080,6 +1135,8 @@ namespace TaskMate.Migrations
             modelBuilder.Entity("TaskMate.Entities.AppUser", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Notifications");
 
                     b.Navigation("UserBoards");
 

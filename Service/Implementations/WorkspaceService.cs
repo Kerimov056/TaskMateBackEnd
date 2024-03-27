@@ -46,6 +46,16 @@ public class WorkspaceService : IWorkspaceService
         };
 
         await _appDbContext.WorkspaceUsers.AddAsync(newWorkspaceUser);
+
+        var workspace = await _appDbContext.Workspaces.FirstOrDefaultAsync(x => x.Id == addUserWorkspace.WorkspaceId);
+
+        var newNotification = new Notification()
+        {
+            WorkspaceId = addUserWorkspace.WorkspaceId,
+            Text = $"You've been added to a new workspace named {workspace.Title}",
+            AppUserId = addUserWorkspace.AppUserId
+        };
+        await _appDbContext.Notifications.AddAsync(newNotification);
         await _appDbContext.SaveChangesAsync();
     }
 
@@ -65,11 +75,11 @@ public class WorkspaceService : IWorkspaceService
     public async Task<List<GetWorkspaceDto>> GetAllAsync(string AppUserId)
     {
         var byAdmin = await _userManager.FindByIdAsync(AppUserId);
+        if (byAdmin is null) throw new NotFoundException("Not Found User");
 
         var adminRol = await _userManager.GetRolesAsync(byAdmin);
 
-        if (adminRol.FirstOrDefault().ToString() == Role.GlobalAdmin.ToString() ||
-            adminRol.FirstOrDefault().ToString() == Role.Admin.ToString())
+        if (adminRol.FirstOrDefault().ToString() == Role.GlobalAdmin.ToString())
         {
             var AllWokrspace = await _appDbContext.Workspaces.ToListAsync();
             var AllWokrspaceToMapper = _mapper.Map<List<GetWorkspaceDto>>(AllWokrspace);

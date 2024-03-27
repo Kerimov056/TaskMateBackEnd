@@ -1,11 +1,13 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using TaskMate.Context;
 using TaskMate.DTOs.Boards;
 using TaskMate.DTOs.Workspace;
 using TaskMate.Entities;
 using TaskMate.Exceptions;
+using TaskMate.Helper.Enum.Board;
 using TaskMate.Helper.Enum.User;
 using TaskMate.Service.Abstraction;
 
@@ -59,6 +61,16 @@ public class BoardsService : IBoardsService
             BoardsId = addUserBoard.BoardId,
         };
 
+        var board = await _appDbContext.Boards.FirstOrDefaultAsync(z => z.Id == addUserBoard.BoardId);
+
+        var newNotification = new Notification()
+        {
+            WorkspaceId = addUserBoard.WorkspaceId,
+            BoardId = addUserBoard.BoardId,
+            Text = $"You've been added to a new Board named {board.Title}",
+            AppUserId = addUserBoard.AppUserId
+        };
+        await _appDbContext.Notifications.AddAsync(newNotification);
         await _appDbContext.UserBoards.AddAsync(newUserBoard);
         await _appDbContext.SaveChangesAsync();
     }
@@ -79,26 +91,57 @@ public class BoardsService : IBoardsService
         var newBoard = _mapper.Map<Boards>(createBoardsDto);
         await _appDbContext.Boards.AddAsync(newBoard);
         await _appDbContext.SaveChangesAsync();
+
+        var userBoard = new UserBoards()
+        {
+            AppUserId = createBoardsDto.AppUserId,
+            BoardsId = newBoard.Id,
+        };
+        await _appDbContext.UserBoards.AddAsync(userBoard);
+        await _appDbContext.SaveChangesAsync();
+
     }
 
     public async Task<List<GetBoardsDto>> GetAllAsync(string AppUserId, Guid WorkspaceId)
     {
-
-        var appUser = await _appDbContext.AppUsers.FirstOrDefaultAsync(x => x.Id == AppUserId);
-        if (appUser is null) throw new NotFoundException("Not Found");
+        var user = await _userManager.FindByIdAsync(AppUserId);
+        if (user is null) throw new NotFoundException("Not Found User");
+        var adminRol = await _userManager.GetRolesAsync(user);
 
         var workspaces = await _workspaceService.GetAllAsync(AppUserId);
         if (workspaces is null) return null;
 
         bool isTrue = false;
         foreach (var item in workspaces)
-           if (item.Id == WorkspaceId)  isTrue = true;
+            if (item.Id == WorkspaceId) isTrue = true;
+
 
 
         if (isTrue)
         {
+            if (adminRol.FirstOrDefault().ToString() == Role.GlobalAdmin.ToString())
+            {
+                var GAWokrspaceInBoards = await _appDbContext.Boards.Where(x => x.WorkspaceId == WorkspaceId).ToListAsync();
+                return _mapper.Map<List<GetBoardsDto>>(GAWokrspaceInBoards);
+            }
             var WokrspaceInBoards = await _appDbContext.Boards.Where(x => x.WorkspaceId == WorkspaceId).ToListAsync();
-            return _mapper.Map<List<GetBoardsDto>>(WokrspaceInBoards);
+
+            var userAccesBoard = new List<Boards>();
+            foreach (var board in WokrspaceInBoards)
+            {
+                if (board.BoardAccessibility == BoardAccessibility.Private)
+                {
+                    if (await _appDbContext.UserBoards.FirstOrDefaultAsync(x => x.AppUserId == AppUserId && x.BoardsId == board.Id) is not null)
+                    {
+                        userAccesBoard.Add(board);
+                        continue;
+                    }
+                }
+                else
+                    userAccesBoard.Add(board);
+            }
+
+            return _mapper.Map<List<GetBoardsDto>>(userAccesBoard);
         }
         else return null;
     }
@@ -106,7 +149,7 @@ public class BoardsService : IBoardsService
     public async Task<List<GetBoardsDto>> GetByIdAsync(Guid BoardId)
     {
         var board = await _appDbContext.Boards.Include(x => x.CardLists)
-                               .ThenInclude(x => x.Cards.OrderByDescending(x=>x.CreatedDate)).Where(x => x.Id == BoardId).ToListAsync();
+                               .ThenInclude(x => x.Cards.OrderByDescending(x => x.CreatedDate)).Where(x => x.Id == BoardId).ToListAsync();
         if (board is null)
             throw new NotFoundException("Not Found");
 
@@ -139,7 +182,7 @@ public class BoardsService : IBoardsService
         var adminRol = await _userManager.GetRolesAsync(byAdmin);
 
         if (adminRol.FirstOrDefault().ToString() != Role.GlobalAdmin.ToString() &&
-            adminRol.FirstOrDefault().ToString() != Role.Admin.ToString())
+            adminRol.FirstOrDefault().ToString() != Role.Admin.ToString()) 
             throw new PermisionException("No Access");
 
         var tokenResponse = await _authService.ShareLinkToUser(linkShareToBoardDto.UsernameOrEmail, linkShareToBoardDto.Password);

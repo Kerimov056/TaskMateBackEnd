@@ -1,4 +1,6 @@
-﻿namespace TaskMate.DTOs.Boards;
+﻿using TaskMate.Helper.Enum.Board;
+
+namespace TaskMate.DTOs.Boards;
 
 public class UpdateBoardsDto
 {

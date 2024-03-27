@@ -32,5 +32,6 @@ public class AppDbContext : IdentityDbContext<AppUser>
     public DbSet<CustomFieldsDate> CustomFieldsDates { get; set; }
     public DbSet<CustomFieldDropdownOptions> CustomFieldDropdownOptions { get; set; }
     public DbSet<CustomFieldsCheckbox> CustomFieldsCheckboxes { get; set; }
+    public DbSet<Notification> Notifications { get; set; }
     public DbSet<Token> Tokens { get; set; }
 }
