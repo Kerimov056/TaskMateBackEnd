@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\service\\implementations\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\extensionsmethods\\persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:extensionsmethods\\persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\controllers\\attachmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:controllers\\attachmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\service\\implementations\\cardlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\cardlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\service\\abstraction\\iattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\iattachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\service\\abstraction\\iboardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\abstraction\\iboardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:service\\implementations\\boardsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\dtos\\boards\\getboardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:dtos\\boards\\getboardsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\entities\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:entities\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|c:\\users\\asus\\desktop\\taskmatebe-main\\entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85061A2C-B1F6-444B-89FA-7759ECB902B0}|TaskMate.csproj|solutionrelative:entities\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "Entities\\Comment.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Entities\\Comment.cs",
+              "RelativeToolTip": "Entities\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T19:00:23.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\ExtensionsMethods\\Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "ExtensionsMethods\\Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\ExtensionsMethods\\Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "ExtensionsMethods\\Persistence\\ServiceRegistration.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:18:08.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttachmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Controllers\\AttachmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttachmentsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Controllers\\AttachmentsController.cs",
+              "RelativeToolTip": "Controllers\\AttachmentsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:07:37.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Context\\AppDbContext.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA6wCUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:06:01.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttachmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Implementations\\AttachmentService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\AttachmentService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Implementations\\AttachmentService.cs",
+              "RelativeToolTip": "Service\\Implementations\\AttachmentService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwDIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T13:38:29.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAttachmentService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Abstraction\\IAttachmentService.cs",
+              "RelativeDocumentMoniker": "Service\\Abstraction\\IAttachmentService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Abstraction\\IAttachmentService.cs",
+              "RelativeToolTip": "Service\\Abstraction\\IAttachmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T13:35:55.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T10:56:07.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBoardsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Abstraction\\IBoardsService.cs",
+              "RelativeDocumentMoniker": "Service\\Abstraction\\IBoardsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Abstraction\\IBoardsService.cs",
+              "RelativeToolTip": "Service\\Abstraction\\IBoardsService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAzwA8AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:15:22.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CardListService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Implementations\\CardListService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\CardListService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Implementations\\CardListService.cs",
+              "RelativeToolTip": "Service\\Implementations\\CardListService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:14:08.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BoardsService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Implementations\\BoardsService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\BoardsService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Service\\Implementations\\BoardsService.cs",
+              "RelativeToolTip": "Service\\Implementations\\BoardsService.cs",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAswAMBAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:07:51.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetBoardsDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\DTOs\\Boards\\GetBoardsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Boards\\GetBoardsDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\DTOs\\Boards\\GetBoardsDto.cs",
+              "RelativeToolTip": "DTOs\\Boards\\GetBoardsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:06:36.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Workspace.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Entities\\Workspace.cs",
+              "RelativeDocumentMoniker": "Entities\\Workspace.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Entities\\Workspace.cs",
+              "RelativeToolTip": "Entities\\Workspace.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:06:08.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Boards.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Entities\\Boards.cs",
+              "RelativeDocumentMoniker": "Entities\\Boards.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\TaskMateBE-main\\Entities\\Boards.cs",
+              "RelativeToolTip": "Entities\\Boards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T03:04:46.555Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
